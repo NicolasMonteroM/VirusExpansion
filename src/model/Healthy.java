@@ -1,9 +1,20 @@
 package model;
 
-public class Healthy extends Person{
+import processing.core.PApplet;
 
-	public Healthy() {
-		// TODO Auto-generated constructor stub
+public class Healthy extends Person {
+
+	public Healthy(PApplet app) {
+		super(app);
+
 	}
 
+	@Override
+	public void drawPerson() {
+		
+		app.noStroke();
+		app.fill(102, 242, 129);
+		app.ellipse(posX, posY, size, size);
+
+	}
 }

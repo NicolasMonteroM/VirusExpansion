@@ -1,5 +1,11 @@
 package exception;
 
+/**
+ * 
+ * @author nicolasmonteromuriel
+ *
+ */
+
 public class NewInfection extends Exception{
 
 	/**
